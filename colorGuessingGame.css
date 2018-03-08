@@ -1,0 +1,87 @@
+body {
+  background-color: #232323;
+  margin: 0;
+  font-family: "Avenir", "Montserrat", "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.square {
+  width: 30%;
+  background: purple;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 15%;
+  transition: all 0.2s;
+}
+
+#colorDisplay {
+  text-transform: uppercase;
+  font-size: 200%;
+}
+
+.container {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  line-height: 1.1;
+  height: auto;
+  background-color: steelblue;
+  margin: 0;
+  padding: 20px 0;
+  font-weight: normal;
+}
+
+span {
+  color: white;
+}
+
+#stripe {
+  text-align: center;
+  background-color: white;
+}
+
+.selected {
+  color: white;
+  background-color: steelblue;
+}
+
+.hidden {
+  display: none;
+}
+
+button {
+  /* width: 5em; */
+  height: 100%;
+  /* margin: 0;
+  padding: 0; */
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  font-family: "Avenir", "Montserrat", "Trebuchet MS", "Lucida Sans Unicode",
+    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bolder;
+  color: steelblue;
+  letter-spacing: 1px;
+  transition: all 0.2s;
+  outline: none;
+}
+
+button:hover {
+  /* width: 20%; */
+  background-color: steelblue;
+  color: white;
+}
+
+#message {
+  display: inline-block;
+  width: 12%;
+  color: black;
+  font-family: inherit;
+  font-size: 1.5em;
+}
